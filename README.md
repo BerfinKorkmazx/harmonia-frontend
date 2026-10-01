@@ -28,11 +28,11 @@ This project was developed as part of my front-end learning process. I customize
 
 ### Homepage
 
-![Harmonia Homepage](screenshots/homepage.png)
+![Harmonia Homepage](screenshots/homepage.PNG)
 
 ## 🌐 Live Demo
 
-[View Live Demo](#)
+[View Live Demo](https://berfinkorkmazx.github.io/harmonia-frontend/)
 
 ## 📁 Project Structure
 
