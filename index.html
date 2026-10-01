@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Icon Dosyası -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fons Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar start-->
+    <div class="navbar navbar-expand-lg sticky-top py-2 py-lg-0">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">
+                <h2><i class="bi bi-music-note-beamed me-2"></i>Harmonia</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase me-2" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase me-2" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase me-2" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase me-2" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="our.html">Our Team</a></li>
+                            <li><a class="dropdown-item" href="test.html">Testimonial</a></li>
+                            <li><a class="dropdown-item" href="page.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase me-2" href="#">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary px-lg-5 py-lg-3 rounded-0" onclick="window.location.href='join.html'">Join Now</button>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid mb-5 p-0">
+        <div class="carousel slide" id="carouselExampleCaptions" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="img/carousel-1.jpg" class="d-block w-100">
+                    <!-- filtre div -->
+                    <div class="position-absolute w-100 h-100 top-0 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, .7);">
+                        <div class="container d-none d-md-block p-5">
+                            <div class="row">
+                                <div class="col-8 text-white">
+                                    <h5 class="text-uppercase text-primary">Best Online Courses</h5>
+                                    <h1 class="display-3">The Best Online Learning Platform</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas
+                                        dignissimos suscipit corporis excepturi voluptatum voluptates velit quisquam
+                                        eligendi nulla consequuntur aliquid fugit quo neque molestias magnam nemo, odit
+                                        modi.</p>
+                                    <a class="btn btn-primary py-3 px-5" href="#">Read More</a>
+                                    <a class="btn btn-light py-3 px-5" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/carousel-1.jpg" class="d-block w-100">
+                    <!-- filtre div -->
+                    <div class="position-absolute w-100 h-100 top-0 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, .7);">
+                        <div class="container d-none d-md-block p-5">
+                            <div class="row">
+                                <div class="col-8 text-white">
+                                    <h5 class="text-uppercase text-primary">Best Online Courses</h5>
+                                    <h1 class="display-3">The Best Online Learning Platform</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas
+                                        dignissimos suscipit corporis excepturi voluptatum voluptates velit quisquam
+                                        eligendi nulla consequuntur aliquid fugit quo neque molestias magnam nemo, odit
+                                        modi.</p>
+                                    <a class="btn btn-primary py-3 px-5" href="#">Read More</a>
+                                    <a class="btn btn-light py-3 px-5" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/carousel-1.jpg" class="d-block w-100">
+                    <!-- filtre div -->
+                    <div class="position-absolute w-100 h-100 top-0 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, .7);">
+                        <div class="container d-none d-md-block p-5">
+                            <div class="row">
+                                <div class="col-8 text-white">
+                                    <h5 class="text-uppercase text-primary">Best Online Courses</h5>
+                                    <h1 class="display-3">The Best Online Learning Platform</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas
+                                        dignissimos suscipit corporis excepturi voluptatum voluptates velit quisquam
+                                        eligendi nulla consequuntur aliquid fugit quo neque molestias magnam nemo, odit
+                                        modi.</p>
+                                    <a class="btn btn-primary py-3 px-5" href="#">Read More</a>
+                                    <a class="btn btn-light py-3 px-5" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/carousel-1.jpg" class="d-block w-100">
+                    <!-- filtre div -->
+                    <div class="position-absolute w-100 h-100 top-0 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, .7);">
+                        <div class="container d-none d-md-block p-5">
+                            <div class="row">
+                                <div class="col-8 text-white">
+                                    <h5 class="text-uppercase text-primary">Best Online Courses</h5>
+                                    <h1 class="display-3">The Best Online Learning Platform</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas
+                                        dignissimos suscipit corporis excepturi voluptatum voluptates velit quisquam
+                                        eligendi nulla consequuntur aliquid fugit quo neque molestias magnam nemo, odit
+                                        modi.</p>
+                                    <a class="btn btn-primary py-3 px-5" href="#">Read More</a>
+                                    <a class="btn btn-light py-3 px-5" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Bölüm 1 Etiketler Start -->
+
+    <div class="container bolum1 mb-3">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 text-center d-flex align-items-stretch mb-4">
+                <div class="icerik p-2">
+                    <i class="bi bi-mortarboard"></i>
+                    <h5 class="mb-3">Skilled Instructors</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur elit. Sequi qui alias amet iusto?</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center d-flex align-items-stretch mb-4">
+                <div class="icerik p-2">
+                    <i class="bi bi-mortarboard"></i>
+                    <h5 class="mb-3">Skilled Instructors</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur elit. Sequi qui alias amet iusto?</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center d-flex align-items-stretch mb-4">
+                <div class="icerik p-2">
+                    <i class="bi bi-mortarboard"></i>
+                    <h5 class="mb-3">Skilled Instructors</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur elit. Sequi qui alias amet iusto?</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center d-flex align-items-stretch mb-4">
+                <div class="icerik p-2">
+                    <i class="bi bi-mortarboard"></i>
+                    <h5 class="mb-3">Skilled Instructors</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur elit. Sequi qui alias amet iusto?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bölüm 1 Etiketler End -->
+
+    <!-- Bölüm 2 About As - Hakkında Bölümü Start -->
+    <section class="container bolum2">
+        <div class="row">
+            <div class="col-lg-6 mb-5">
+                <img src="img/about.jpg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-6">
+                <h6 class="text-primary2 text-uppercase">About Us</h6>
+                <h1 class="mb-3">Welcome to Harmonia</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit corrupti alias consequatur, hic
+                    officia dolores.</p>
+                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quo debitis aliquid illo nulla,
+                    excepturi commodi, quidem exercitationem aspernatur cumque quod neque eum nemo architecto ullam
+                    impedit itaque porro fugiat!</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="bi bi-caret-right-fill"></i>
+                        <p class="d-inline-block mb-1">Skilled Instructors</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-caret-right-fill"></i>
+                        <p class="d-inline-block mb-1">Skilled Instructors</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-caret-right-fill"></i>
+                        <p class="d-inline-block mb-1">Skilled Instructors</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-caret-right-fill"></i>
+                        <p class="d-inline-block mb-1">Skilled Instructors</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-caret-right-fill"></i>
+                        <p class="d-inline-block mb-1">Skilled Instructors</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-caret-right-fill"></i>
+                        <p class="d-inline-block mb-1">Skilled Instructors</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary py-3 px-5 mt-4">Read More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Bölüm 2 About As - Hakkında Bölümü End -->
+
+    <!-- Bölüm 3 Kurslar Bölümü Start -->
+    <section class="container bolum3 pb-3">
+        <div class="text-center">
+            <h6 class="text-primary2 courses">Courses</h6>
+            <h1>Popular Courses</h1>
+        </div>
+        <div class="row g-4 d-flex justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="etiket">
+                    <div class="position-relative mb-3">
+                        <img src="img/course-1.jpg" class="img-fluid" alt="">
+                        <div class="butonlar position-absolute bottom-0 start-0 d-flex justify-content-center w-100 mb-4">
+                            <button class="btn btn-primary btn-sm" style="border-radius: 30px 0 0 30px;">Read More</button>
+                            <button class="btn btn-primary btn-sm" style="border-radius: 0 30px 30px 0">Join Now</button>
+                        </div>
+                    </div>
+                    <div class="text-center baslik">
+                        <h3>$149.00</h3>
+                        <div class="yildiz mb-4">
+                            <small><i class="bi bi-star-fill"></i></small>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <small>(123)</small>
+                        </div>
+                        <h5 class="px-5 mb-3">Piano Basics: Learning Notes and First Pieces</h5>
+                    </div>
+                    <div class="border-top d-flex ">
+                        <small class="py-2 border-end me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                        <small class="py-2 border-end me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                        <small class="py-2 me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="etiket">
+                    <div class="position-relative mb-3">
+                        <img src="img/course-1.jpg" class="img-fluid" alt="">
+                        <div class="butonlar position-absolute bottom-0 start-0 d-flex justify-content-center w-100 mb-4">
+                            <button class="btn btn-primary btn-sm" style="border-radius: 30px 0 0 30px;">Read More</button>
+                            <button class="btn btn-primary btn-sm" style="border-radius: 0 30px 30px 0">Join Now</button>
+                        </div>
+                    </div>
+                    <div class="text-center baslik">
+                        <h3>$149.00</h3>
+                        <div class="yildiz mb-4">
+                            <small><i class="bi bi-star-fill"></i></small>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <small>(123)</small>
+                        </div>
+                        <h5 class="px-5 mb-3">Piano Basics: Learning Notes and First Pieces</h5>
+                    </div>
+                    <div class="border-top d-flex ">
+                        <small class="py-2 border-end me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                        <small class="py-2 border-end me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                        <small class="py-2 me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="etiket">
+                    <div class="position-relative mb-3">
+                        <img src="img/course-1.jpg" class="img-fluid" alt="">
+                        <div class="butonlar position-absolute bottom-0 start-0 d-flex justify-content-center w-100 mb-4">
+                            <button class="btn btn-primary btn-sm" style="border-radius: 30px 0 0 30px;">Read More</button>
+                            <button class="btn btn-primary btn-sm" style="border-radius: 0 30px 30px 0">Join Now</button>
+                        </div>
+                    </div>
+                    <div class="text-center baslik">
+                        <h3>$149.00</h3>
+                        <div class="yildiz mb-4">
+                            <small><i class="bi bi-star-fill"></i></small>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <small>(123)</small>
+                        </div>
+                        <h5 class="px-5 mb-3">Piano Basics: Learning Notes and First Pieces</h5>
+                    </div>
+                    <div class="border-top d-flex ">
+                        <small class="py-2 border-end me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                        <small class="py-2 border-end me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                        <small class="py-2 me-2 text-center flex-fill"> 
+                            <i class="bi bi-person-fill text-primary2 me-2"></i>
+                            John Doe
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bölüm 3 Kurslar Bölümü End -->
+
+    <!-- Bölüm 4 İnstructor - Eğitmenler Etiketi Oluşturma Start -->
+    <div class="container bolum4 pt-5">
+        <div class="text-center">
+            <h6 class="text-primary2">INSTRUCTORS</h6>
+            <h1 class="mb-5">Expert Instructors</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="etiket text-center pb-4">
+                    <img src="img/team-1.jpg" class="img-fluid" alt="">
+                    <div class="d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="d-flex justify-content-center p-2 bg-light">
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="mt-4">Instructor Name</h5>
+                    <small>Designation</small>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="etiket text-center pb-4">
+                    <img src="img/team-1.jpg" class="img-fluid" alt="">
+                    <div class="d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="d-flex justify-content-center p-2 bg-light">
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="mt-4">Instructor Name</h5>
+                    <small>Designation</small>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="etiket text-center pb-4">
+                    <img src="img/team-1.jpg" class="img-fluid" alt="">
+                    <div class="d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="d-flex justify-content-center p-2 bg-light">
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="mt-4">Instructor Name</h5>
+                    <small>Designation</small>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="etiket text-center pb-4">
+                    <img src="img/team-1.jpg" class="img-fluid" alt="">
+                    <div class="d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="d-flex justify-content-center p-2 bg-light">
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="mt-4">Instructor Name</h5>
+                    <small>Designation</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bölüm 4 İnstructor - Eğitmenler Etiketi Oluşturma End -->
+
+    <!-- Footer Alanı Oluşturma Start -->
+    <footer class="container-fluid text-white">
+        <div class="container py-5 altkenarlik mb-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <a href="#" class="btn btn-link text-white">About Us</a>
+                    <a href="#" class="btn btn-link text-white">Contact Us</a>
+                    <a href="#" class="btn btn-link text-white">Privacy Policy</a>
+                    <a href="#" class="btn btn-link text-white">Terms & Conditions</a>
+                    <a href="#" class="btn btn-link text-white">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6 px-3 mb-4">
+                    <h4>Contact</h4>
+                    <p><i class="bi bi-geo-alt me-1"></i>123 Street, New York, USA</p>
+                    <p><i class="bi bi-telephone-fill me-1"></i>+012 345 67890</p>
+                    <p><i class="bi bi-envelope-fill me-1"></i>info@example.com</p>
+                    <div class="d-flex sosyalikon">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-3 mb-4">
+                    <h4>Gallery</h4>
+                    <div class="row g-4 gallery">
+                        <div class="col-4 p-1">
+                            <img src="img/course-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="img/course-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="img/course-3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-4 p-1 mt-1">
+                            <img src="img/course-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-4 p-1 mt-1">
+                            <img src="img/course-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-4 p-1 mt-1">
+                            <img src="img/course-3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-4 mb-4">
+                    <h4 class="">Newsletter</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, consectetur.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input type="text" class="form-control py-3" placeholder="Your email">
+                        <button class="btn btn-primary position-absolute bottom-0 end-0 mb-2 me-2 py-2">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6 mb-4 text-sm-center">
+                    &copy <a href="#" class="text-white">Harmonia,</a> All Right Reserved. Designed by <a href="#" class="text-white">HTML codex</a>
+                    <br>
+                    <br>
+                    Distributed by <a href="#" class="text-white">Theme Wagon</a>
+                </div>
+                <div class="col-md-6 text-md-end text-center">
+                    <div class="menu">
+                        <a href="#">Home</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Help</a>
+                        <a href="#">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Alanı Oluşturma End -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

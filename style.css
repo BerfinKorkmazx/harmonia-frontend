@@ -1,0 +1,237 @@
+body{
+    font-family: "Nunito", sans-serif;
+}
+.navbar{
+    background-color: #121212;
+    /* background-color: #1d1827; */
+}
+.navbar-brand{
+    color: #fbf8ff !important;
+    /* position: relative; Bunu .navbar-brand h2,i de ki biçimlendirme olmasaydı kullanabilirdik.
+    top: 5px; */
+}
+/* !important kullanmadan yapılan hali
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: #fbf8ff;
+} */
+/* link lerin biçimlendirilmesi */
+.navbar-nav a.nav-link{
+    color: #fbf8ff !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-nav a.nav-link:hover,
+.navbar-nav a.nav-link.active{
+    color: #b19ee9 !important;
+}
+/* button biçimlendirme */
+.btn-primary{
+    background-color: #9a80e9 !important;
+    border-color: #9a80e9 !important;
+}
+.btn-primary:hover{
+    background-color: #d3fbd8 !important;
+    border-color: #d3fbd8 !important;
+    color: #121212;
+}
+/* .btn-light{
+    background-color: #faf7ff;
+} */
+.text-primary{
+    color: #b19ee9 !important;
+ }
+.text-primary2{
+    color: #9a80e9 !important;
+ }
+.navbar-brand h2,i{
+    margin-bottom: 0;
+}
+/* hamburger menü butonunu biçimlendiriyoruz */
+button.navbar-toggler{
+    color: #9a80e9;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23fbf8ff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* Dropdown menünün rengini large ekrandan dan küçük olduğunda değiştirme */
+/* Sadece large ve altı ekranlarda geçerli olacak */
+@media (max-width:992px) {
+    .dropdown-menu{
+        background-color: #1b1b1b !important; /* Navbar ile aynı renk */
+        border: none;
+    }
+    .dropdown-menu .dropdown-item{
+        color: #fbf8ff ; /* Link yazıları */
+    }
+    .dropdown-menu .dropdown-item:hover{
+        color: #b19ee9 !important; /* Hover rengi */
+        background-color: transparent !important;
+    }
+    /* 992px altına düştüğünde opaklığı değiştiriyoruz */
+    .navbar{
+        opacity: rgba(18, 18, 18, 0.9); /* %90 saydamlık */
+    }
+    .navbar-collapse {
+    position: absolute;     /* Navbar’ın altına sabitle */
+    top: 100%;              /* Navbar yüksekliği kadar aşağıdan başlat */
+    left: 0;
+    width: 100%;            /* Tam genişlik */
+    background-color: rgba(18, 18, 18, 0.8); /* Senin koyu opak navbar rengin */
+    z-index: 999;           /* Önde görünmesi için */
+    padding: 20px;
+  }
+}
+/* Carousel start   */
+.carousel-item img{
+    max-height: 91vh; /* Görüntünün yüksekliğini ekranın %91 i yapar */
+    object-fit: cover; /* Resmin orta noktasını sabit tutar.*/
+}
+/* Carousel end   */
+
+/* Bölüm 1 Etiketler start */
+
+.bolum1 .icerik{
+    background-color: #f4f1fa;
+    transition: 0.5s;
+    /* background-color: #e8e2fd; */
+    /* background-color: #d3fbd8; */
+
+}
+.bolum1 .icerik:hover{
+    background-color: #d3fbd8 !important;
+}
+.bolum1 .icerik i{
+    color: #9a80e9 !important; 
+    font-size: 50px;
+}
+.bolum1 .icerik:hover i{
+    color: #9a80e9;
+}
+/* Bölüm 1 Etiketler end */
+
+/* Bölüm 2 About As - Hakkında Bölümü Start */
+.bolum2 h1{
+    font-weight: 700;
+}
+.bolum2 p{
+    color: #52565b;
+}
+.bolum2 img{
+    max-height: 500px;
+    object-fit: cover; /* Resmin orta noktasını sabit tutar.*/
+    overflow: hidden; /* Taşan yerlerin gizlenmesini sağlar.*/
+}
+.bolum2 i{
+    color: #9a80e9;
+}
+/* Bölüm 2 About As - Hakkında Bölümü End */
+
+/* Bölüm 3 Kurslar Bölümü Start */
+.bolum3 .etiket{
+    background-color: #f4f1fa !important;
+}
+.bolum3 .baslik h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.bolum3 .yildiz i{
+    color: #9a80e9 !important; 
+}
+.bolum3 .baslik h5{
+    font-weight: 700;
+    font-size: 20px;
+}
+.bolum3 .courses{
+    font-size: 25px;
+}
+/* Bölüm 3 Kurslar Bölümü End */
+
+/* Bölüm 4 İnstructor - Eğitmenler Etiketi Oluşturma Start */
+.bolum4 i{
+    color: #FFF !important;
+}
+.bolum4 .etiket{
+    background-color: #f4f1fa !important;
+}
+.bolum4 .bg-light{
+    background-color: #f4f1fa !important;    
+}
+.bolum4 h6{
+    font-weight: 700;
+}
+.bolum4 h1{
+    font-weight: 700;
+}
+/* Bölüm 4 İnstructor - Eğitmenler Etiketi Oluşturma End */
+
+/* Footer Alanı Oluşturma Start  */
+footer{
+    background-color: #121212 !important;
+    margin-top: 60px !important;
+}
+footer .btn-link{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.5s;
+    padding: 3px;
+    margin: 0;
+}
+footer .btn-link:hover{
+    letter-spacing: 1px;
+} 
+footer .btn-link::before{
+    content: "\F285";
+    font-family: bootstrap-icons !important;
+}
+footer .sosyalikon a{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px; /* Tam bir yuvarlak oluşması için */
+    /* background-color: #FFF; Normalde iiçinin boş üstüne gelindiğinde dolu olmasını istediğimiz için kaldırdık*/
+    border: 1px solid #FFF;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+footer .sosyalikon a:hover{
+    background-color: #FFF;
+    color: #9a80e9;
+}
+footer .sosyalikon i{
+    color: #b19ee9;
+}
+footer .gallery img{
+    border: 5px solid #FFF;
+}
+footer .altkenarlik{
+    border-bottom: 1px solid rgba(256, 256, 256, .1);
+}
+footer .altkenarlik i{
+    color: #9a80e9;
+}
+/* Footer copyright olan kısım */
+footer .copyright{
+    font-size: 15px;
+}
+footer .menu a{
+    margin-right: 15px;
+    padding-right: 15px;
+    color: #FFF;
+    text-decoration: none;
+    border-right: 1px solid rgba(256, 256, 256, .1);
+    transition: 0.5s;
+}
+footer .menu a:last-child{
+    border: none;
+}
+footer .menu a:hover{
+    letter-spacing: 1px;
+}
+
+/* Footer Alanı Oluşturma End  */
